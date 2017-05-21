@@ -10,7 +10,7 @@ cpu_performance$Vendor_Name <- as.character(cpu_performance$Vendor_Name)
 ui <- fluidPage(
    
    
-   titlePanel("Find Cpu Using Cache Memory and Maximum Channels Unit"),
+   titlePanel("Find Cpu Model and Vendor Name Using Cache Memory and Maximum Channels Unit"),
    
    
    sidebarLayout(
